@@ -1,16 +1,11 @@
 export const metadata = {
   title: "Fazil Khan – Supply Chain & Engineering Portfolio",
-  description:
-    "Supply chain & procurement professional | Open to UK roles with visa sponsorship.",
+  description: "Supply chain & procurement professional | Open to UK roles with visa sponsorship.",
 };
 
 import "./globals.css";
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>{children}</body>
