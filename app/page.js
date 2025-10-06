@@ -39,7 +39,7 @@ export default function Page() {
     </div>
     <div>
       {/* Banner image */}
-      <img src="/hero.jpg" alt="Supply chain & engineering banner" />
+      <img src="/hero.png" alt="Supply chain & engineering banner" />
     </div>
   </div>
 </section>
