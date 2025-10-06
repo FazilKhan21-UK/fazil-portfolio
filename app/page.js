@@ -20,75 +20,54 @@ export default function Page() {
 
       {/* Hero */}
       <section className="container py-12">
-        <div className="hero hero-2col">
-          <div>
-            <h1 className="text-3xl font-bold">Supply Chain & Procurement | MSc (Warwick)</h1>
-            <p className="mt-3 text-gray-700" style={{ maxWidth: "46rem" }}>
-              Analytical, values-driven supply chain professional with experience across inventory optimisation,
-              supplier coordination, and cost-effective logistics. Open to UK roles with visa sponsorship.
-            </p>
-            <div className="mt-4" style={{ display: "flex", gap: ".5rem", flexWrap: "wrap" }}>
-              <span className="badge">Coventry, UK</span>
-              <span className="badge">Visa sponsorship welcome</span>
-              <span className="badge">Supply Chain • Engineering</span>
-            </div>
-            <div className="mt-6" style={{ display: "flex", gap: ".75rem", flexWrap: "wrap" }}>
-              <a className="btn" href="mailto:fazil.khan0904@gmail.com">Email Me</a>
-              <a className="btn" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/fazilkhan11">LinkedIn</a>
-              <a className="btn" href="#projects">View Projects</a>
-            </div>
-          </div>
-          <div>
-            {/* Replace hero.jpg with your own image in /public */}
-            <img src="/hero.jpg" alt="Fazil – professional portrait or supply chain collage" />
-            <div className="mt-3 gallery">
-              <img src="/gallery-1.jpg" alt="Warehouse operations" />
-              <img src="/gallery-2.jpg" alt="Dashboard / analytics" />
-              <img src="/gallery-3.jpg" alt="Procurement / supplier meeting" />
-            </div>
-          </div>
-        </div>
-      </section>
+  <div className="hero hero-2col">
+    <div>
+      <h1 className="text-3xl font-bold">Supply Chain & Procurement | MSc (Warwick)</h1>
+      <p className="mt-3 text-gray-700" style={{ maxWidth: "46rem" }}>
+        Analytical, values-driven supply chain professional with experience across inventory optimisation,
+        supplier coordination, and cost-effective logistics. Open to UK roles with visa sponsorship.
+      </p>
+      <div className="mt-4" style={{ display: "flex", gap: ".5rem", flexWrap: "wrap" }}>
+        <span className="badge">Coventry, UK</span>
+        <span className="badge">Visa sponsorship welcome</span>
+      </div>
+      <div className="mt-6" style={{ display: "flex", gap: ".75rem", flexWrap: "wrap" }}>
+        <a className="btn" href="mailto:fazil.khan0904@gmail.com">Email Me</a>
+        <a className="btn" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/fazilkhan11">LinkedIn</a>
+        <a className="btn" href="/Fazil-Khan-CV.pdf" download>Download CV</a>
+      </div>
+    </div>
+    <div>
+      {/* Banner image */}
+      <img src="/hero.jpg" alt="Supply chain & engineering banner" />
+    </div>
+  </div>
+</section>
 
       {/* About */}
       <section id="about" className="container py-12 border-t">
-        <div className="grid grid-2">
-          <div>
-            <h2 className="text-2xl font-semibold">About Me</h2>
-            <p className="mt-3 text-gray-700">
-              I specialise in inventory optimisation, supplier performance and risk mitigation,
-              and demand planning. I enjoy bringing clarity to complex operations using data and
-              practical lean improvements. I’m currently completing my MSc at Warwick and am open
-              to UK roles with visa sponsorship.
-            </p>
-            <div className="mt-6 kpi">
-              <div>
-                <div className="text-muted">Stock-outs</div>
-                <div className="font-bold">−15%</div>
-              </div>
-              <div>
-                <div className="text-muted">Peak throughput</div>
-                <div className="font-bold">~120k/wk</div>
-              </div>
-              <div>
-                <div className="text-muted">Data errors</div>
-                <div className="font-bold">−92%</div>
-              </div>
-            </div>
-          </div>
-          <div className="card">
-            <img src="/headshot.jpg" alt="Fazil Khan headshot" />
-            <div className="card-body">
-              <div className="text-muted">Quick facts</div>
-              <ul className="mt-2" style={{ paddingLeft: "1rem" }}>
-                <li>Based in Coventry, UK</li>
-                <li>MSc Supply Chain & Logistics (Warwick) – Sep 2025</li>
-                <li>Open to sponsorship & relocation</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
+  <div className="grid grid-2">
+    <div>
+      <h2 className="text-2xl font-semibold">About Me</h2>
+      <p className="mt-3 text-gray-700">
+        I specialise in inventory optimisation, supplier performance and demand planning.
+        Currently completing my MSc at Warwick and open to UK roles with visa sponsorship.
+      </p>
+    </div>
+    <div className="card">
+      <img src="/headshot.jpg" alt="Fazil Khan professional headshot" />
+      <div className="card-body">
+        <div className="text-muted">Quick facts</div>
+        <ul className="mt-2" style={{ paddingLeft: "1rem" }}>
+          <li>Based in Coventry, UK</li>
+          <li>MSc Supply Chain & Logistics (Warwick) – Sep 2025</li>
+          <li>Open to sponsorship & relocation</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* Skills */}
       <section id="skills" className="container py-12 border-t">
