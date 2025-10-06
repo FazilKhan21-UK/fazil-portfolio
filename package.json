@@ -20,5 +20,10 @@
   },
   "engines": {
     "node": ">=18.17 <21"
-  }
+  },
+  "devDependencies": {
+  "@types/react": "^18.2.21",
+  "@types/node": "^20.11.19"
+}
+
 }
