@@ -13,10 +13,8 @@ export default function Page() {
       </header>
 
       <section className="container py-12">
-        <h1 className="text-3xl font-bold">
-          Supply Chain & Procurement | MSc (Warwick)
-        </h1>
-        <p className="mt-3 text-gray-700 max-w-2xl">
+        <h1 className="text-3xl font-bold">Supply Chain & Procurement | MSc (Warwick)</h1>
+        <p className="mt-3 text-gray-700" style={{ maxWidth: "42rem" }}>
           Analytical, values-driven supply chain professional with experience across
           inventory optimisation, supplier coordination, and cost-effective logistics.
           Open to UK roles with visa sponsorship.
@@ -33,7 +31,7 @@ export default function Page() {
 
       <section className="container py-12 border-t">
         <h2 className="text-2xl font-semibold">Experience</h2>
-        <ul className="mt-4 list-disc ml-5 text-gray-700 space-y-2">
+        <ul className="mt-4 list-disc ml-5 text-gray-700">
           <li>Shoe Zone — Reduced stock-outs by 15% via replenishment alignment.</li>
           <li>Amazon — Maintained schedule during ~120k parcels/week peak.</li>
           <li>Collabera/Trane — Cut attribution errors by 92%; saved $4,800+.</li>
@@ -42,7 +40,7 @@ export default function Page() {
 
       <section className="container py-12 border-t">
         <h2 className="text-2xl font-semibold">Education</h2>
-        <ul className="mt-4 list-disc ml-5 text-gray-700 space-y-2">
+        <ul className="mt-4 list-disc ml-5 text-gray-700">
           <li>MSc Supply Chain & Logistics Management — University of Warwick (Sep 2025)</li>
           <li>B.E. Mechanical Engineering — NMIT (Jun 2023)</li>
         </ul>
@@ -56,4 +54,3 @@ export default function Page() {
     </div>
   );
 }
-
