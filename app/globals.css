@@ -1,21 +1,46 @@
-/* app/globals.css — plain CSS */
+/* app/globals.css — plain CSS, no Tailwind needed */
 * { box-sizing: border-box; }
 html, body { margin: 0; padding: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color: #111; background: #fff; }
+img { max-width: 100%; height: auto; display: block; }
+
 .container { max-width: 72rem; margin: 0 auto; padding: 0 1rem; }
+.min-h-screen { min-height: 100vh; }
+
 .border-t { border-top: 1px solid #e5e7eb; }
 .border-b { border-bottom: 1px solid #e5e7eb; }
 .text-gray-600 { color: #4b5563; }
 .text-gray-700 { color: #374151; }
-.btn { display: inline-flex; align-items: center; gap: .5rem; padding: .5rem 1rem; border-radius: 1rem; border: 1px solid #e5e7eb; box-shadow: 0 1px 2px rgba(0,0,0,.05); text-decoration: none; color: inherit; }
+.text-muted { color: #6b7280; }
+
+.btn { display: inline-flex; align-items: center; gap: .5rem; padding: .6rem 1rem; border-radius: 1rem; border: 1px solid #e5e7eb; text-decoration: none; color: inherit; background: #fff; }
+.btn:hover { box-shadow: 0 2px 8px rgba(0,0,0,.08); }
 .btn-primary { background: #000; color: #fff; border-color: #000; }
-.badge { display: inline-flex; align-items: center; padding: .25rem .75rem; border-radius: .75rem; border: 1px solid #e5e7eb; font-size: .75rem; }
-.min-h-screen { min-height: 100vh; }
+.badge { display: inline-flex; align-items: center; padding: .25rem .75rem; border-radius: .75rem; border: 1px solid #e5e7eb; font-size: .75rem; background: #fafafa; }
+
 .py-3 { padding-top: .75rem; padding-bottom: .75rem; }
 .py-6 { padding-top: 1.5rem; padding-bottom: 1.5rem; }
 .py-12 { padding-top: 3rem; padding-bottom: 3rem; }
-.mt-3 { margin-top: .75rem; } .mt-4 { margin-top: 1rem; } .mt-6 { margin-top: 1.5rem; }
+.mt-2{ margin-top:.5rem; } .mt-3 { margin-top: .75rem; } .mt-4 { margin-top: 1rem; } .mt-6 { margin-top: 1.5rem; } .mt-8{margin-top:2rem;}
+.mb-2{ margin-bottom:.5rem;} .mb-4{ margin-bottom:1rem;}
+
 .text-3xl { font-size: 1.875rem; line-height: 2.25rem; }
 .text-2xl { font-size: 1.5rem; line-height: 2rem; }
 .font-bold { font-weight: 700; } .font-semibold { font-weight: 600; }
-.list-disc { list-style: disc; } .ml-5 { margin-left: 1.25rem; }
-.flex { display: flex; } .gap-2 { gap: .5rem; } .gap-3 { gap: .75rem; }
+
+.grid { display: grid; gap: 1rem; }
+.grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+
+.card { border: 1px solid #e5e7eb; border-radius: 16px; overflow: hidden; background: #fff; }
+.card-body { padding: 1rem; }
+.kpi { display:grid; grid-template-columns: repeat(3,1fr); gap:.75rem; }
+.kpi > div { background:#f8fafc; border:1px solid #e5e7eb; border-radius:12px; padding:.75rem; text-align:center; }
+
+.hero { display:grid; gap:1.5rem; align-items:center; }
+.hero-2col { grid-template-columns: 1.2fr .8fr; }
+.hero img { border-radius: 16px; border: 1px solid #e5e7eb; }
+
+.gallery { display:grid; grid-template-columns: repeat(3, 1fr); gap: .75rem; }
+.gallery img { border-radius: 12px; border: 1px solid #e5e7eb; object-fit: cover; height: 160px; }
+
+blockquote.testimonial { border-left: 4px solid #e5e7eb; padding-left: 1rem; color:#374151; background:#fafafa; border-radius: 6px; }
