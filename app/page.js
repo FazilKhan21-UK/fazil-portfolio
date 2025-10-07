@@ -55,7 +55,7 @@ export default function Page() {
       </p>
     </div>
     <div className="card">
-      <img src="/headshot.JPG" alt="Fazil Khan professional headshot" />
+      <img src="/headshot.jPG" alt="Fazil Khan professional headshot" />
       <div className="card-body">
         <div className="text-muted">Quick facts</div>
         <ul className="mt-2" style={{ paddingLeft: "1rem" }}>
